@@ -1,0 +1,36 @@
+# Basic parameters
+snr_min = -3
+snr_max = 18
+seed = 3407
+
+# learning rate related parameters
+lr_initial = 0.001
+lr_scheduler_type = MultiStep
+lr_decay_rate = 0.5
+decay_step_list = 10, 20, 30, 40, 50
+
+# optimizer related parameters
+optimizer = adam
+
+# Model basic parameters
+d_model = 128
+d_channel_max = 32
+dff = 512
+num_layers = 3
+num_heads = 8
+dropout = 0.1
+
+# Model1 parameters
+mlp_ratio = 2
+stage1_epoch = 10
+threshold = 0.99
+
+# Dataset parameters
+len_max = 30
+fixed_padding = True
+
+# Training set parameters
+batch_size = 384
+epochs = 60
+rate_min = 2
+rate_max = 16

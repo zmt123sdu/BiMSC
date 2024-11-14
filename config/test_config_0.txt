@@ -1,0 +1,20 @@
+# Basic parameters
+test_batch_size = 384
+test_loop = 2
+seed = 3407
+
+# Model basic parameters
+d_model = 128
+d_channel_max = 32
+dff = 512
+num_layers = 3
+num_heads = 8
+dropout = 0.1
+
+# Model1 parameters
+mlp_ratio = 2
+threshold = 0.99
+
+# Dataset parameters
+len_max = 30
+fixed_padding = True
